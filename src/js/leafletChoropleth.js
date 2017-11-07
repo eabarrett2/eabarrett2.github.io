@@ -23,7 +23,7 @@ info.onAdd = function(map) {
 
 info.update = function(props) {
   this._div.innerHTML = '<h4>US Homelessness Rates 2013</h4>' + (props ?
-    '<b>' + props.name + '</b><br />' + props.homelessness + ' percentage of homelessness ' :
+    '<b>' + props.name + '</b><br />' + props.homelessness + ' % of homelessness ' :
     'Hover over a state');
 };
 
