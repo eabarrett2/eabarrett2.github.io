@@ -22,26 +22,25 @@ info.onAdd = function(map) {
 };
 
 info.update = function(props) {
-  this._div.innerHTML = '<h4>US Population Density</h4>' + (props ?
-    '<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>' :
+  this._div.innerHTML = '<h4>US Homelessness Rates 2013</h4>' + (props ?
+    '<b>' + props.name + '</b><br />' + props.homelessness + ' people / mi<sup>2</sup>' :
     'Hover over a state');
 };
 
 info.addTo(map);
 
 ////////////////////////////////////////////////////////////////////////////////
-// get color depending on population density value
-function getColor(d) {
-  return d > 1000 ? '#800026' :
-    d > 500 ? '#BD0026' :
-    d > 200 ? '#E31A1C' :
-    d > 100 ? '#FC4E2A' :
-    d > 50 ? '#FD8D3C' :
-    d > 20 ? '#FEB24C' :
-    d > 10 ? '#FED976' :
+// get color depending on homeless rates
+function getColor(h) {
+  return h > 0.51 ? '#800026' :
+    h > 0.41 ? '#BD0026' :
+    h > 0.31 ? '#E31A1C' :
+    h > 0.21 ? '#FC4E2A' :
+    h > 0.11 ? '#FD8D3C' :
+    h > 0 ? '#FED976' :
     '#FFEDA0';
 }
-// set color of the json based on its Population Density
+// set color of the json based on its percentage of homeless population
 function style(feature) {
   return {
     weight: 2,
@@ -49,7 +48,7 @@ function style(feature) {
     color: 'white',
     dashArray: '3',
     fillOpacity: 0.7,
-    fillColor: getColor(feature.properties.density)
+    fillColor: getColor(feature.properties.homelessness)
   };
 }
 // highlightFeature function
@@ -96,7 +95,7 @@ geojson = L.geoJson(statesData, {
 
 ////////////////////////////////////////////////////////////////////////////////
 // customize map attribution in lower left corner
-map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
+map.attributionControl.addAttribution('Homelessness Rates in the US in 2013 &copy; <a href="https://www.hudexchange.info">US Department of Housing and Urban Development</a>');
 
 ////////////////////////////////////////////////////////////////////////////////
 // add legend layer to map at the given position
@@ -107,7 +106,7 @@ var legend = L.control({
 legend.onAdd = function(map) {
 
   var div = L.DomUtil.create('div', 'info legend'),
-    grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+    grades = [0, 0.11, 0.21, 0.31, 0.41, 0.51],
     labels = [],
     from, to;
 
