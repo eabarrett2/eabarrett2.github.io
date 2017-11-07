@@ -6,7 +6,7 @@ var statesData = {
       "id": "01",
       "properties": {
         "name": "Alabama",
-        "density": 94.65
+        "homelessness": 0.097005992
       },
       "geometry": {
         "type": "Polygon",
@@ -117,7 +117,7 @@ var statesData = {
       "id": "02",
       "properties": {
         "name": "Alaska",
-        "density": 1.264
+        "homelessness": 0.264714364
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3429,7 +3429,7 @@ var statesData = {
       "id": "04",
       "properties": {
         "name": "Arizona",
-        "density": 57.05
+        "homelessness": 0.159387344
       },
       "geometry": {
         "type": "Polygon",
@@ -3537,7 +3537,7 @@ var statesData = {
       "id": "05",
       "properties": {
         "name": "Arkansas",
-        "density": 56.43
+        "homelessness": 0.128811069
       },
       "geometry": {
         "type": "Polygon",
@@ -3660,7 +3660,7 @@ var statesData = {
       "id": "06",
       "properties": {
         "name": "California",
-        "density": 241.7
+        "homelessness": 0.356971043
       },
       "geometry": {
         "type": "Polygon",
@@ -3951,7 +3951,7 @@ var statesData = {
       "id": "08",
       "properties": {
         "name": "Colorado",
-        "density": 49.33
+        "homelessness": 0.185142759
       },
       "geometry": {
         "type": "Polygon",
@@ -4011,7 +4011,7 @@ var statesData = {
       "id": "09",
       "properties": {
         "name": "Connecticut",
-        "density": 739.1
+        "homelessness": 0.12369024
       },
       "geometry": {
         "type": "Polygon",
@@ -4071,7 +4071,7 @@ var statesData = {
       "id": "10",
       "properties": {
         "name": "Delaware",
-        "density": 464.3
+        "homelessness": 0.102187526
       },
       "geometry": {
         "type": "Polygon",
@@ -4122,7 +4122,7 @@ var statesData = {
       "id": "11",
       "properties": {
         "name": "District of Columbia",
-        "density": 10065
+        "homelessness": 1.06195539
       },
       "geometry": {
         "type": "Polygon",
@@ -4149,7 +4149,7 @@ var statesData = {
       "id": "12",
       "properties": {
         "name": "Florida",
-        "density": 353.4
+        "homelessness": 0.244782605
       },
       "geometry": {
         "type": "Polygon",
@@ -4395,7 +4395,7 @@ var statesData = {
       "id": "13",
       "properties": {
         "name": "Georgia",
-        "density": 169.5
+        "homelessness": 0.169843038
       },
       "geometry": {
         "type": "Polygon",
@@ -4560,7 +4560,7 @@ var statesData = {
       "id": "15",
       "properties": {
         "name": "Hawaii",
-        "density": 214.1
+        "homelessness": 0.451193473
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -4729,7 +4729,7 @@ var statesData = {
       "id": "16",
       "properties": {
         "name": "Idaho",
-        "density": 19.15
+        "homelessness": 0.110474551
       },
       "geometry": {
         "type": "Polygon",
@@ -4939,7 +4939,7 @@ var statesData = {
       "id": "17",
       "properties": {
         "name": "Illinois",
-        "density": 231.5
+        "homelessness": 0.104214092
       },
       "geometry": {
         "type": "Polygon",
@@ -5152,7 +5152,7 @@ var statesData = {
       "id": "18",
       "properties": {
         "name": "Indiana",
-        "density": 181.7
+        "homelessness": 0.092772651
       },
       "geometry": {
         "type": "Polygon",
@@ -5302,7 +5302,7 @@ var statesData = {
       "id": "19",
       "properties": {
         "name": "Iowa",
-        "density": 54.81
+        "homelessness": 0.09979239
       },
       "geometry": {
         "type": "Polygon",
@@ -5464,7 +5464,7 @@ var statesData = {
       "id": "20",
       "properties": {
         "name": "Kansas",
-        "density": 35.09
+        "homelessness": 0.093055978
       },
       "geometry": {
         "type": "Polygon",
@@ -5515,7 +5515,7 @@ var statesData = {
       "id": "21",
       "properties": {
         "name": "Kentucky",
-        "density": 110
+        "homelessness": 0.119332149
       },
       "geometry": {
         "type": "Polygon",
@@ -5752,7 +5752,7 @@ var statesData = {
       "id": "22",
       "properties": {
         "name": "Louisiana",
-        "density": 105
+        "homelessness": 0.112983113
       },
       "geometry": {
         "type": "Polygon",
@@ -5992,7 +5992,7 @@ var statesData = {
       "id": "23",
       "properties": {
         "name": "Maine",
-        "density": 43.04
+        "homelessness": 0.227056799
       },
       "geometry": {
         "type": "Polygon",
@@ -6202,7 +6202,7 @@ var statesData = {
       "id": "24",
       "properties": {
         "name": "Maryland",
-        "density": 596.3
+        "homelessness": 0.138391928
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6410,7 +6410,7 @@ var statesData = {
       "id": "25",
       "properties": {
         "name": "Massachusetts",
-        "density": 840.2
+        "homelessness": 0.284319444
       },
       "geometry": {
         "type": "Polygon",
@@ -6527,7 +6527,7 @@ var statesData = {
       "id": "26",
       "properties": {
         "name": "Michigan",
-        "density": 173.9
+        "homelessness": 0.116485856
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -7003,7 +7003,7 @@ var statesData = {
       "id": "27",
       "properties": {
         "name": "Minnesota",
-        "density": 67.14
+        "homelessness": 0.151539191
       },
       "geometry": {
         "type": "Polygon",
@@ -7264,7 +7264,7 @@ var statesData = {
       "id": "28",
       "properties": {
         "name": "Mississippi",
-        "density": 63.50
+        "homelessness": 0.080335463
       },
       "geometry": {
         "type": "Polygon",
@@ -7414,7 +7414,7 @@ var statesData = {
       "id": "29",
       "properties": {
         "name": "Missouri",
-        "density": 87.26
+        "homelessness": 0.141971496
       },
       "geometry": {
         "type": "Polygon",
@@ -7585,7 +7585,7 @@ var statesData = {
       "id": "30",
       "properties": {
         "name": "Montana",
-        "density": 6.858
+        "homelessness": 0.184994558
       },
       "geometry": {
         "type": "Polygon",
@@ -7753,7 +7753,7 @@ var statesData = {
       "id": "31",
       "properties": {
         "name": "Nebraska",
-        "density": 23.97
+        "homelessness": 0.16831539
       },
       "geometry": {
         "type": "Polygon",
@@ -7852,7 +7852,7 @@ var statesData = {
       "id": "32",
       "properties": {
         "name": "Nevada",
-        "density": 24.80
+        "homelessness": 0.302601737
       },
       "geometry": {
         "type": "Polygon",
@@ -7927,7 +7927,7 @@ var statesData = {
       "id": "33",
       "properties": {
         "name": "New Hampshire",
-        "density": 147
+        "homelessness": 0.109334705
       },
       "geometry": {
         "type": "Polygon",
@@ -8023,7 +8023,7 @@ var statesData = {
       "id": "34",
       "properties": {
         "name": "New Jersey",
-        "density": 1189
+        "homelessness": 0.134863949
       },
       "geometry": {
         "type": "Polygon",
@@ -8131,7 +8131,7 @@ var statesData = {
       "id": "35",
       "properties": {
         "name": "New Mexico",
-        "density": 17.16
+        "homelessness": 0.10497356
       },
       "geometry": {
         "type": "Polygon",
@@ -8194,7 +8194,7 @@ var statesData = {
       "id": "36",
       "properties": {
         "name": "New York",
-        "density": 412.3
+        "homelessness": 0.394023203
       },
       "geometry": {
         "type": "Polygon",
@@ -8410,7 +8410,7 @@ var statesData = {
       "id": "37",
       "properties": {
         "name": "North Carolina",
-        "density": 198.2
+        "homelessness": 0.12355733
       },
       "geometry": {
         "type": "Polygon",
@@ -8605,7 +8605,7 @@ var statesData = {
       "id": "38",
       "properties": {
         "name": "North Dakota",
-        "density": 9.916
+        "homelessness": 0.286013274
       },
       "geometry": {
         "type": "Polygon",
@@ -8665,7 +8665,7 @@ var statesData = {
       "id": "39",
       "properties": {
         "name": "Ohio",
-        "density": 281.9
+        "homelessness": 0.106518058
       },
       "geometry": {
         "type": "Polygon",
@@ -8818,7 +8818,7 @@ var statesData = {
       "id": "40",
       "properties": {
         "name": "Oklahoma",
-        "density": 55.22
+        "homelessness": 0.114476617
       },
       "geometry": {
         "type": "Polygon",
@@ -8965,7 +8965,7 @@ var statesData = {
       "id": "41",
       "properties": {
         "name": "Oregon",
-        "density": 40.33
+        "homelessness": 0.351699018
       },
       "geometry": {
         "type": "Polygon",
@@ -9145,7 +9145,7 @@ var statesData = {
       "id": "42",
       "properties": {
         "name": "Pennsylvania",
-        "density": 284.3
+        "homelessness": 0.118101104
       },
       "geometry": {
         "type": "Polygon",
@@ -9256,7 +9256,7 @@ var statesData = {
       "id": "44",
       "properties": {
         "name": "Rhode Island",
-        "density": 1006
+        "homelessness": 0.131620116
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9317,7 +9317,7 @@ var statesData = {
       "id": "45",
       "properties": {
         "name": "South Carolina",
-        "density": 155.4
+        "homelessness": 0.137051741
       },
       "geometry": {
         "type": "Polygon",
@@ -9461,7 +9461,7 @@ var statesData = {
       "id": "46",
       "properties": {
         "name": "South Dakota",
-        "density": 98.07
+        "homelessness": 0.129486304
       },
       "geometry": {
         "type": "Polygon",
@@ -9560,7 +9560,7 @@ var statesData = {
       "id": "47",
       "properties": {
         "name": "Tennessee",
-        "density": 88.08
+        "homelessness": 0.146675374
       },
       "geometry": {
         "type": "Polygon",
@@ -9701,7 +9701,7 @@ var statesData = {
       "id": "48",
       "properties": {
         "name": "Texas",
-        "density": 98.07
+        "homelessness": 0.111973623
       },
       "geometry": {
         "type": "Polygon",
@@ -10169,7 +10169,7 @@ var statesData = {
       "id": "49",
       "properties": {
         "name": "Utah",
-        "density": 34.30
+        "homelessness": 0.112966032
       },
       "geometry": {
         "type": "Polygon",
@@ -10217,7 +10217,7 @@ var statesData = {
       "id": "50",
       "properties": {
         "name": "Vermont",
-        "density": 67.73
+        "homelessness": 0.232034853
       },
       "geometry": {
         "type": "Polygon",
@@ -10313,7 +10313,7 @@ var statesData = {
       "id": "51",
       "properties": {
         "name": "Virginia",
-        "density": 204.5
+        "homelessness": 0.092307823
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10571,7 +10571,7 @@ var statesData = {
       "id": "53",
       "properties": {
         "name": "Washington",
-        "density": 102.6
+        "homelessness": 0.254754923
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10805,7 +10805,7 @@ var statesData = {
       "id": "54",
       "properties": {
         "name": "West Virginia",
-        "density": 77.06
+        "homelessness": 0.120800041
       },
       "geometry": {
         "type": "Polygon",
@@ -11012,7 +11012,7 @@ var statesData = {
       "id": "55",
       "properties": {
         "name": "Wisconsin",
-        "density": 105.2
+        "homelessness": 0.106291225
       },
       "geometry": {
         "type": "Polygon",
@@ -11249,7 +11249,7 @@ var statesData = {
       "id": "56",
       "properties": {
         "name": "Wyoming",
-        "density": 5.851
+        "homelessness": 0.163560785
       },
       "geometry": {
         "type": "Polygon",
@@ -11300,7 +11300,7 @@ var statesData = {
       "id": "72",
       "properties": {
         "name": "Puerto Rico",
-        "density": 1082
+        "homelessness": 0
       },
       "geometry": {
         "type": "Polygon",
