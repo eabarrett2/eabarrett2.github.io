@@ -32,13 +32,13 @@ info.addTo(map);
 ////////////////////////////////////////////////////////////////////////////////
 // get color depending on homeless rates
 function getColor(h) {
-  return h > 0.51 ? '#800026' :
-    h > 0.41 ? '#BD0026' :
-    h > 0.31 ? '#E31A1C' :
-    h > 0.21 ? '#FC4E2A' :
-    h > 0.11 ? '#FD8D3C' :
-    h > 0 ? '#FED976' :
-    '#FFEDA0';
+  return h > 0.51 ? '#016450' :
+    h > 0.41 ? '#02818a' :
+    h > 0.31 ? '#3690c0' :
+    h > 0.21 ? '#67a9cf' :
+    h > 0.11 ? '#a6bddb' :
+    h > 0 ? '#d0d1e6' :
+    '#f6eff7';
 }
 // set color of the json based on its percentage of homeless population
 function style(feature) {
