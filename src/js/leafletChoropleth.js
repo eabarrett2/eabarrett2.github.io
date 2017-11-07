@@ -23,7 +23,7 @@ info.onAdd = function(map) {
 
 info.update = function(props) {
   this._div.innerHTML = '<h4>US Homelessness Rates 2013</h4>' + (props ?
-    '<b>' + props.name + '</b><br />' + props.homelessness + ' people / mi<sup>2</sup>' :
+    '<b>' + props.name + '</b><br />' + props.homelessness + ' percentage of homelessness ' :
     'Hover over a state');
 };
 
@@ -32,12 +32,11 @@ info.addTo(map);
 ////////////////////////////////////////////////////////////////////////////////
 // get color depending on homeless rates
 function getColor(h) {
-  return h > 0.51 ? '#016450' :
-    h > 0.41 ? '#02818a' :
-    h > 0.31 ? '#3690c0' :
-    h > 0.21 ? '#67a9cf' :
-    h > 0.11 ? '#a6bddb' :
-    h > 0 ? '#d0d1e6' :
+  return h > 0.51 ? '#016c59' :
+    h > 0.41 ? '#1c9099' :
+    h > 0.31 ? '#67a9cf' :
+    h > 0.21 ? '#a6bddb' :
+    h > 0.11 ? '#d0d1e6' :
     '#f6eff7';
 }
 // set color of the json based on its percentage of homeless population
